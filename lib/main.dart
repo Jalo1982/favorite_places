@@ -1,3 +1,4 @@
+import 'package:favorite_places/screens/places.dart';
 import 'package:flutter/material.dart';
 
 final colorScheme = ColorScheme.fromSeed(
@@ -22,6 +23,7 @@ class FavoritePlaces extends StatelessWidget {
     return MaterialApp(
       title: 'Hello',
       theme: theme,
+      home: const PlacesScreen(),
     );
   }
 }
