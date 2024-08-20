@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:favorite_places/screens/places.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 //import 'package:riverpod/riverpod.dart';
@@ -28,6 +28,7 @@ class FavoritePlaces extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Hello',
       theme: theme,
       home: const PlacesScreen(),
