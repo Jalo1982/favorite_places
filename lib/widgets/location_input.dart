@@ -120,12 +120,12 @@ class _LocationInputState extends State<LocationInput> {
           children: [
             TextButton.icon(
               icon: const Icon(Icons.location_on),
-              onPressed: () {},
+              onPressed: _getCurrentLocation,
               label: const Text('Get Current Location'),
             ),
             TextButton.icon(
               icon: const Icon(Icons.map),
-              onPressed: _getCurrentLocation,
+              onPressed: () {},
               label: const Text('select on Map'),
             ),
           ],
