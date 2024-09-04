@@ -47,13 +47,13 @@ favorite-places/
 Below is a list of dependencies used in this project:
 ```
 Flutter:  The core Flutter framework.
-cupertino_icons:     ^1.0.2 — Icons based on Apple's iOS design guidelines.
-flutter_riverpod:    ^1.0.0 — A provider solution for state management in Flutter.
-sqflite:             ^2.0.0+4 — A SQLite plugin for Flutter to manage local storage.
-path_provider:       ^2.0.11 — Provides access to commonly used locations on the filesystem.
-google_maps_flutter: ^2.0.6 — A Flutter plugin to integrate Google Maps into your app.
-image_picker:        ^0.8.4+4 — A plugin to pick images from the device's library or camera.
-intl:                ^0.17.0 — Provides internationalization and localization facilities.
+cupertino_icons:     Icons based on Apple's iOS design guidelines.
+flutter_riverpod:    A provider solution for state management in Flutter.
+sqflite:             A SQLite plugin for Flutter to manage local storage.
+path_provider:       Provides access to commonly used locations on the filesystem.
+google_maps_flutter: A Flutter plugin to integrate Google Maps into your app.
+image_picker:        A plugin to pick images from the device's library or camera.
+intl:                Provides internationalization and localization facilities.
 
 ```
 
